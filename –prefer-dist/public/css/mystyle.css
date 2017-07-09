@@ -1,0 +1,39 @@
+		@font-face {
+		   font-family: myFirstFont;
+		   src: url(fonts/ristella/Ristella_PERSONAL_USE_ONLY.ttf); //add the file
+		}
+		.logoText-small{
+		height:20px;
+		width:20px;
+		font-size:20px;
+		color:#ffffff;
+		font-family:myFirstFont;
+		}
+		.myMain {
+			//background-image: url('../images/wood.jpg');
+			background-color:#c0c0c0;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-position: top left;
+			background-size: 1400px 800px ;
+		} 
+		.styledform{
+			background-color:#404040;
+			color:#ffffff;
+			padding:0px 10px 10px 10px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			border-radius: 10px;
+		}
+		.rMessageSpan{
+			background-color:#80bfff;
+			padding: 10px 10px 10px 10px;
+			border-radius: 10px;
+			float: left;'
+		}
+		.sMessageSpan{
+			background-color:#80ff80;
+			padding: 10px 10px 10px 10px;
+			border-radius: 10px;
+			float: right;'
+		}
+			//hover link active visited
