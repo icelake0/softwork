@@ -57,14 +57,16 @@
                         <div class="services row">
                             <div class="col-sm-4">
                                 <div class="single-service">
-                                    <i class="fa fa-th"></i>
+                                    <i class="fa fa-mobile-phone"></i>
+                                    <!--i class="fa fa-th "></i-->
                                     <h2>Modern Design</h2>
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="single-service">
-                                    <i class="fa fa-html5"></i>
+                                    <i class="fa fa-laptop" aria-hidden="true"></i>
+
                                     <h2>Web Development</h2>
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </p>
                                 </div>
@@ -100,8 +102,8 @@
                             <div class="col-sm-6 col-md-3">
                                 <div class="single-member">
                                     <img src="images/our-team/member2.jpg" alt="team member" />
-                                    <h4>Alekjandra Jony</h4>
-                                    <h5>Creative Designer</h5>
+                                    <h4>OLAYIWOLA Olayemi</h4>
+                                    <h5>Computer Engineer</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
                                     <div class="socials">
                                         <a href="#"><i class="fa fa-facebook"></i></a>
@@ -115,7 +117,7 @@
                             <div class="col-sm-6 col-md-3">
                                 <div class="single-member">
                                     <img src="images/our-team/member3.jpg" alt="team member" />
-                                    <h4>Paul Johnson</h4>
+                                    <h4>AJIBOYE Gbemileke</h4>
                                     <h5>Skilled Programmer</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
                                     <div class="socials">
