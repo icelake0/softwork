@@ -22,6 +22,6 @@ class qandaController extends Controller
             $question->question_profile_pic=$temp_profile_pic;
             $question->time_asked=new Carbon($question->time_asked);
     	}
-    	return view('qanda',['questions'=>$questions]);
+    	return view('QandA',['questions'=>$questions]);
     }
 }
