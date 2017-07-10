@@ -51,7 +51,7 @@
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
             <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> 
           </button> 
-          <a class="navbar-brand" href="index.html"><h1><img src="images/logo.png" alt="logo" style='height:50px; width:100px'></h1></a> 
+          <a class="navbar-brand" href="/"><h1><img src="images/logo.png" alt="logo" style='height:50px; width:100px'></h1></a> 
         </div> 
         <div class="collapse navbar-collapse"> 
           <ul class="nav navbar-nav navbar-right"> 
@@ -107,16 +107,7 @@
               <div class="modal-content">
                 <div class="modal-header" style='background-color:#404040;'>
                   <button type="button" class="close" data-dismiss="modal"><span class='glyphicon glyphicon-remove' style='background-color:#FF5050'></span></button>
-                  <a class="navbar-brand" href="#">
-                            <span class='logoText-small'style='background-color:#404040'>S</span>
-                            <span class='logoText-small'style='background-color:#33CC33'>O</span>
-                            <span class='logoText-small'style='background-color:#FF5050'>F</span>
-                            <span class='logoText-small'style='background-color:#3399FF'>T</span>
-                            <span class='logoText-small'style='background-color:#404040'>W</span>
-                            <span class='logoText-small'style='background-color:#33CC33'>O</span>
-                            <span class='logoText-small'style='background-color:#FF5050'>R</span>
-                            <span class='logoText-small'style='background-color:#3399FF'>K</span>
-                  </a>
+                  <a class="navbar-brand" href="/"><img src="images/logo.png" alt="logo" style='height:50px; width:100px'></a> 
                   <p style='font-size:20px;font-family:myFirstFont;color:#ffffff;'>Login</p>
                 </div>
                 <div class="modal-body">
@@ -175,16 +166,7 @@
               <div class="modal-content">
                 <div class="modal-header" style='background-color:#404040;'>
                   <button type="button" class="close" data-dismiss="modal"><span class='glyphicon glyphicon-remove' style='background-color:#FF5050'></span></button>
-                  <a class="navbar-brand" href="#">
-                            <span class='logoText-small'style='background-color:#404040'>S</span>
-                            <span class='logoText-small'style='background-color:#33CC33'>O</span>
-                            <span class='logoText-small'style='background-color:#FF5050'>F</span>
-                            <span class='logoText-small'style='background-color:#3399FF'>T</span>
-                            <span class='logoText-small'style='background-color:#404040'>W</span>
-                            <span class='logoText-small'style='background-color:#33CC33'>O</span>
-                            <span class='logoText-small'style='background-color:#FF5050'>R</span>
-                            <span class='logoText-small'style='background-color:#3399FF'>K</span>
-                  </a>
+                    <a class="navbar-brand" href="/"><img src="images/logo.png" alt="logo" style='height:50px; width:100px'></a> 
                   <p style='font-size:20px;font-family:myFirstFont;color:#ffffff;'>Sign up</p>
                 </div>
                 <div class="modal-body">
@@ -255,17 +237,8 @@
               <!-- Modal content-->
               <div class="modal-content">
                 <div class="modal-header" style='background-color:#404040;'>
-                  <button type="button" class="close" data-dismiss="modal"><span class='glyphicon glyphicon-remove' style='background-color:#FF5050'></span></button>
-                  <a class="navbar-brand" href="#">
-                            <span class='logoText-small'style='background-color:#404040'>S</span>
-                            <span class='logoText-small'style='background-color:#33CC33'>O</span>
-                            <span class='logoText-small'style='background-color:#FF5050'>F</span>
-                            <span class='logoText-small'style='background-color:#3399FF'>T</span>
-                            <span class='logoText-small'style='background-color:#404040'>W</span>
-                            <span class='logoText-small'style='background-color:#33CC33'>O</span>
-                            <span class='logoText-small'style='background-color:#FF5050'>R</span>
-                            <span class='logoText-small'style='background-color:#3399FF'>K</span>
-                  </a>
+                  <button type="button" class="close" data-dismiss="modal"><span class='glyphicon glyphicon-remove' style='background-color:#FF5050'></span></button>                  
+                  <a class="navbar-brand" href="/"><img src="images/logo.png" alt="logo" style='height:50px; width:100px'></a> 
                   <p style='font-size:20px;font-family:myFirstFont;color:#ffffff;'>Report A Fault</p>
                 </div>
                 <div class="modal-body">
@@ -292,16 +265,7 @@
               <div class="modal-content">
                 <div class="modal-header" style='background-color:#404040;'>
                   <button type="button" class="close" data-dismiss="modal"><span class='glyphicon glyphicon-remove' style='background-color:#FF5050'></span></button>
-                  <a class="navbar-brand" href="#">
-                            <span class='logoText-small'style='background-color:#404040'>S</span>
-                            <span class='logoText-small'style='background-color:#33CC33'>O</span>
-                            <span class='logoText-small'style='background-color:#FF5050'>F</span>
-                            <span class='logoText-small'style='background-color:#3399FF'>T</span>
-                            <span class='logoText-small'style='background-color:#404040'>W</span>
-                            <span class='logoText-small'style='background-color:#33CC33'>O</span>
-                            <span class='logoText-small'style='background-color:#FF5050'>R</span>
-                            <span class='logoText-small'style='background-color:#3399FF'>K</span>
-                  </a>
+                    <a class="navbar-brand" href="/"><img src="images/logo.png" alt="logo" style='height:50px; width:100px'></a> 
                   <p style='font-size:20px;font-family:myFirstFont;color:#ffffff;'>Update Profile Picture</p>
                 </div>
                 <div class="modal-body">

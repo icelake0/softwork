@@ -13,25 +13,23 @@
                 <div class="item active" style="background-image: url(images/slider/slide3.jpg)"> 
                     <div class="carousel-caption"> 
                         <div> 
-                            <h2 class="heading animated bounceInDown">'Himu' Onepage HTML Template</h2> 
-                            <p class="animated bounceInUp">Fully Professional one page template</p> 
-                            <a class="btn btn-default slider-btn animated fadeIn" href="#">Get Started</a> 
+                            <h2 class="heading animated bounceInDown">volutpat. Ut wisi enim ad minim veniam</h2> 
+                            <p class="animated bounceInUp">nostrud exerci tation ullamcorper suscipit</p> 
                         </div> 
                     </div> 
                 </div>
                 <div class="item" style="background-image: url(images/slider/slide2.jpg)"> 
                     <div class="carousel-caption"> <div> 
-                        <h2 class="heading animated bounceInDown">Get All in Onepage</h2> 
-                        <p class="animated bounceInUp">Everything is outstanding </p> <a class="btn btn-default slider-btn animated fadeIn" href="#">Get Started</a> 
+                        <h2 class="heading animated bounceInDown">exerci tation ullamcorp</h2> 
+                        <p class="animated bounceInUp">wireless pad for window 7 </p> 
                     </div> 
                 </div> 
             </div> 
             <div class="item" style="background-image: url(images/slider/slide1.jpg)"> 
                 <div class="carousel-caption"> 
                     <div> 
-                        <h2 class="heading animated bounceInRight">Fully Responsive Template</h2> 
-                        <p class="animated bounceInLeft">100% Responsive HTML template</p> 
-                        <a class="btn btn-default slider-btn animated bounceInUp" href="#">Get Started</a> 
+                        <h2 class="heading animated bounceInRight">magna aliquam erat volutpat. Ut w</h2> 
+                        <p class="animated bounceInLeft">laoreet dolore magna aliquam erat</p> 
                     </div> 
                 </div> 
             </div>
@@ -47,7 +45,7 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-sm-8 col-sm-offset-2">
-                    <h2 class="title-one">Services</h2>
+                    <h2 class="title-one">Our Services</h2>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
                 </div>
             </div>
@@ -58,23 +56,22 @@
                             <div class="col-sm-4">
                                 <div class="single-service">
                                     <i class="fa fa-mobile-phone"></i>
-                                    <!--i class="fa fa-th "></i-->
-                                    <h2>Modern Design</h2>
+                                    <h2>Phone Repair</h2>
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="single-service">
-                                    <i class="fa fa-laptop" aria-hidden="true"></i>
+                                    <i class="fa fa-laptop"></i>
 
-                                    <h2>Web Development</h2>
+                                    <h2>Computers Repair</h2>
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </p>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="single-service">
-                                    <i class="fa fa-users"></i>
-                                    <h2>Online Marketing</h2>
+                                    <i class="fa fa-cog"></i>
+                                    <h2>Electronic Design Consultancy</h2>
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
                                 </div>
                             </div></div>
@@ -88,7 +85,7 @@
             <div class="container">
                 <div class="row text-center">
                     <div class="col-sm-8 col-sm-offset-2">
-                        <h2 class="title-one">Meet The Team</h2>
+                        <h2 class="title-one">The Team</h2>
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
                     </div>
                 </div>
@@ -97,9 +94,9 @@
                     <a class="member-right" href="#team-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
                     <div class="carousel-inner team-members">
                         <div class="row item active">
-                            <div class="col-sm-6 col-md-3">
+                            <div class="col-xs-0 col-md-3">
                             </div>
-                            <div class="col-sm-6 col-md-3">
+                            <div class="col-xs-6 col-md-3">
                                 <div class="single-member">
                                     <img src="images/our-team/member2.jpg" alt="team member" />
                                     <h4>OLAYIWOLA Olayemi</h4>
@@ -114,7 +111,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-6 col-md-3">
+                            <div class="col-xs-6 col-md-3">
                                 <div class="single-member">
                                     <img src="images/our-team/member3.jpg" alt="team member" />
                                     <h4>AJIBOYE Gbemileke</h4>
@@ -129,7 +126,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-6 col-md-3">
+                            <div class="col-xs-0 col-md-3">
                             </div>
                         </div>
                     </div>
