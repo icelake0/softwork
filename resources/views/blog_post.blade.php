@@ -19,7 +19,7 @@
 											<a href='/blog_page?blog_post_id={{$blog_post->id}}'><h4>{{$blog_post->title}}</h4></a>
 											<img src="images/blog_posts/{{$blog_post->image_name}}" class='img-rounded' alt='images' width='100%' height='100%'>
 												{{substr($blog_post->content , 0, 300)}} 
-												<a href='/blogpage?blog_post_id={{$blog_post->id}}'>continue reading...</a>
+												<a href='/blog_page?blog_post_id={{$blog_post->id}}'>continue reading...</a>
 										</div>
 									<hr/>
 									<!--end of a post-->
