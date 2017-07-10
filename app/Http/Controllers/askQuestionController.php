@@ -81,13 +81,13 @@ class askQuestionController extends Controller
     {  
         $user_id=Auth::user()->id;
         $file = $request->file('image');
+        if($file==null) {
+            $upload_error='Please select an image';
+            return view('home',['pp_upload_error'=>$upload_error]);
+        }
         $upload_error= '';
         $file_new_name='user'.$user_id.'.'.$file->getClientOriginalExtension();
         $file_extention=$file->getClientOriginalExtension();
-        if($file_extention==null) {
-            $upload_error='please choose an image';
-            return view('home',['pp_upload_error'=>$upload_error]);
-        }
         if($file_extention != 'jpg' && $file_extention != 'PNG' && $file_extention != 'jpeg' && $file_extention != 'gif' ) {
             $upload_error='file is not an image';
             return view('home',['pp_upload_error'=>$upload_error]);
