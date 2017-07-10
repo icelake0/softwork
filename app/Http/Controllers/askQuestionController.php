@@ -89,7 +89,7 @@ class askQuestionController extends Controller
             return view('home',['pp_upload_error'=>$upload_error]);
         }
         if($file->getSize()>205000){
-            $upload_error= 'maximum file size allwed is 200MB';
+            $upload_error= 'maximum file size allowed is 200MB';
             return view('home',['pp_upload_error'=>$upload_error]);
         }
         $destinationPath = 'images/profilePics';
