@@ -19,7 +19,7 @@
 											</span>|
 											<a href='#comments'><span class='badge'>{{$number_of_comments}}</span> comment(s)</a>
 											<a><h4>{{$title}}</h4></a>
-											<img src="images/blog_posts/{{$image_name}}" class='img-rounded' alt='images' width='100%' height='100%'>
+											<img src="images/blogposts/{{$image_name}}" class='img-rounded' alt='images' width='100%' height='100%'>
 												{{$content}}
 										</div>
 									</div>
