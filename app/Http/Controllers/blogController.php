@@ -28,7 +28,7 @@ class blogController extends Controller
     		$image_name=$blog_post->image_name;
     		$number_of_comments=$blog_post->number_of_comments;
     	}
-        $comments = DB::select('select * from Blog_comments where blog_post_id = ?',[$blog_post_id]);
+        $comments = DB::select('select * from blog_comments where blog_post_id = ?',[$blog_post_id]);
         foreach($comments as $comment){
             $comment->time_commented= new Carbon($comment->time_commented);
             $users=DB::select('select username from users where id = ?',[$comment->user_id]);
