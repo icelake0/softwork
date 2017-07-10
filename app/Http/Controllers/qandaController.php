@@ -25,6 +25,3 @@ class qandaController extends Controller
     	return view('qanda',['questions'=>$questions]);
     }
 }
-//foreach ($questions as $key => $value) 
-    	//$username=DB::table('users')->where('id','{$question->user_id}')->value('username');
-    	//$username=json_decode(json_encode($username,true));
