@@ -171,11 +171,11 @@ return [
         /*
          * Application Service Providers...
          */
-        softwork\Providers\AppServiceProvider::class,
-        softwork\Providers\AuthServiceProvider::class,
-        // softwork\Providers\BroadcastServiceProvider::class,
-        softwork\Providers\EventServiceProvider::class,
-        softwork\Providers\RouteServiceProvider::class,
+        Softwork\Providers\AppServiceProvider::class,
+        Softwork\Providers\AuthServiceProvider::class,
+        // Softwork\Providers\BroadcastServiceProvider::class,
+        Softwork\Providers\EventServiceProvider::class,
+        Softwork\Providers\RouteServiceProvider::class,
 
     ],
 

@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => softwork\User::class,
+            'model' => Softwork\User::class,
         ],
 
         // 'users' => [

@@ -1,6 +1,6 @@
 <?php
 
-namespace softwork\Http\Controllers;
+namespace Softwork\Http\Controllers;
 
 use Illuminate\Http\Request;
 use DB;

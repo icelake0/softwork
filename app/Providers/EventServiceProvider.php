@@ -1,6 +1,6 @@
 <?php
 
-namespace softwork\Providers;
+namespace Softwork\Providers;
 
 use Illuminate\Support\Facades\Event;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -13,8 +13,8 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'softwork\Events\Event' => [
-            'softwork\Listeners\EventListener',
+        'Softwork\Events\Event' => [
+            'Softwork\Listeners\EventListener',
         ],
     ];
 

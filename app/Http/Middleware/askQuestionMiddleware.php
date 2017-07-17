@@ -1,6 +1,6 @@
 <?php
 
-namespace softwork\Http\Middleware;
+namespace Softwork\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;
@@ -17,7 +17,7 @@ class askQuestionMiddleware
      public function handle($request, Closure $next, $guard = null)
     {
         if ( !(Auth::guard($guard)->check()) ) {
-            return redirect('/qanda');
+            return redirect('/');
         }
         
         return $next($request);

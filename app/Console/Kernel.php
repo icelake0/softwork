@@ -1,6 +1,6 @@
 <?php
 
-namespace softwork\Console;
+namespace Softwork\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;

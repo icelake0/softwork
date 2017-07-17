@@ -1,6 +1,6 @@
 <?php
 
-namespace softwork;
+namespace Softwork;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;

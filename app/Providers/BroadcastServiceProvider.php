@@ -1,6 +1,6 @@
 <?php
 
-namespace softwork\Providers;
+namespace Softwork\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Broadcast;

@@ -30,7 +30,7 @@
 							<!--begining of a comment-->
 								<div style='box-shadow: 0px 0px 5px #3333ff,0px 0px 5px  #ff3333,0px 0px 5px  #33ff33; padding:10px 10px 10px 10px;'>
 									<span>
-										<img src="images/Screenshot.png" class="img-circle" alt="images/Screenshot.png" width="30" height="30">
+										<img src="images/profilePics/{{$comment->comment_profile_pic}}" class="img-circle" alt="images" width="30" height="30">
 										{{$comment->comment_username}} <span style='color:#3399FF'>{{$comment->time_commented->diffForHumans()}}</span>
 									</span><br/>
 									{{$comment->comment}}

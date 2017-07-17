@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ app()->getLocale() }}">
 <head> 
-  <meta name="description" content="Creative One Page Parallax Template">
-  <meta name="keywords" content="Creative, Onepage, Parallax, HTML5, Bootstrap, Popular, custom, personal, portfolio" /> 
+  <meta name="description" content="Softwork official web site">
+  <meta name="keywords" content="softwork, sofwork.herokuapp.com, icelake0, phone, repair, computer, tech, blog, forum" /> 
   <meta name="author" content=""> 
   <link href="css/prettyPhoto.css" rel="stylesheet"> 
   <link href="css/font-awesome.min.css" rel="stylesheet"> 
@@ -11,11 +11,11 @@
   <link href="css/responsive.css" rel="stylesheet"> 
   <!--[if lt IE 9]> <script src="js/html5shiv.js"></script> 
   <script src="js/respond.min.js"></script> <![endif]--> 
-  <link rel="shortcut icon" href="images/ico/favicon.png"> 
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png"> 
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png"> 
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png"> 
-  <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="images/ico/favicon.jpg"> 
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.jpg"> 
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.jpg"> 
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.jpg"> 
+  <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.jpg">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,7 +23,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'Softwork') }}</title>
     <!-- Styles -->
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <script src="js/bootstrap.min.js"></script>
@@ -76,7 +76,7 @@
                             <li> <a href="#"></a> </li>
                         @else
                             <li><a href="/message"><span class="glyphicon glyphicon-envelope"></span> <span class="badge">{{Auth::user()->number_of_new_messages}}</span></a></li>
-                            <li data-toggle="modal" data-target="#updateProfilePic"><a href="#" data-toggle="tooltip" data-placement="bottom" title="update avater"><img src="../images/profilePics/{{Auth::user()->profile_pic}}" alt='../images/Screenshot.png' class="img-circle" alt="Cinque Terre" width="30" height="30"></a></li>
+                            <li data-toggle="modal" data-target="#updateProfilePic"><a href="#" data-toggle="tooltip" data-placement="bottom" title="update avater"><img src="../images/profilePics/{{Auth::user()->profile_pic}}" alt='image' class="img-circle" alt="Cinque Terre" width="30" height="30"></a></li>
                             <li><a href="#">{{ Auth::user()->username }}</a></li>
                             <li>
                                         <a href="{{ route('logout') }}"

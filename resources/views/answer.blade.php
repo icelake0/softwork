@@ -24,14 +24,7 @@
 							<h3>SoftWork Answer</h3>
 							<div style='box-shadow: 0px 0px 5px #3333ff,0px 0px 5px  #ff3333,0px 0px 5px  #33ff33; padding:10px 10px 10px 10px;'>
 							<!--begining of SoftWork answer-->
-							That is not the problem, if u move to pluto you will not even get it installed. the proplem is not a planet thing it is a 
-							word thing, the idea is simple, we are currently in word one, and microsoft have found a way to make the testing of the new
-							operating system active in word 0, so if u can find ur way to word 0 i promise u will get it installed propally.
-							and if u ask me, how do u get to word 0??? i will say its faster killing ur self. all the best on ur adventure to word 0
-							That is not the problem, if u move to pluto you will not even get it installed. the proplem is not a planet thing it is a 
-							word thing, the idea is simple, we are currently in word one, and microsoft have found a way to make the testing of the new
-							operating system active in word 0, so if u can find ur way to word 0 i promise u will get it installed propally.
-							and if u ask me, how do u get to word 0??? i will say its faster killing ur self. all the best on ur adventure to word 0
+							Softwork is yet to given an answer to this question, registered users can post answers below.
 							</div>
 							<!--end of SoftWork answer-->
 							<h3>Answers</h3>

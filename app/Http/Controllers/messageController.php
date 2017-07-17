@@ -1,6 +1,6 @@
 <?php
 
-namespace softwork\Http\Controllers;
+namespace Softwork\Http\Controllers;
 use DB;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;

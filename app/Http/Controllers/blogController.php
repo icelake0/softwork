@@ -1,6 +1,6 @@
 <?php
 
-namespace softwork\Http\Controllers;
+namespace Softwork\Http\Controllers;
 
 use Illuminate\Http\Request;
 use DB;
@@ -31,12 +31,15 @@ class blogController extends Controller
         $comments = DB::select('select * from blog_comments where blog_post_id = ?',[$blog_post_id]);
         foreach($comments as $comment){
             $comment->time_commented= new Carbon($comment->time_commented);
-            $users=DB::select('select username from users where id = ?',[$comment->user_id]);
+            $users=DB::select('select * from users where id = ?',[$comment->user_id]);
             $temp_username="";
+            $temp_profile_pic="";
             foreach($users as $user){
                 $temp_username= $user->username;
+                $temp_profile_pic= $user->profile_pic;
             }
             $comment->comment_username=$temp_username;
+            $comment->comment_profile_pic=$temp_profile_pic;
         }
     	return view('blog_page',['comments'=>$comments, 'blog_post_id'=>$blog_post_id, 'title'=>$title,'content'=>$content, 'time_posted'=>$time_posted,'image_name'=>$image_name, 'number_of_comments'=>$number_of_comments]);
     }

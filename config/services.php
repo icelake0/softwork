@@ -30,7 +30,7 @@ return [
     ],
 
     'stripe' => [
-        'model' => softwork\User::class,
+        'model' => Softwork\User::class,
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],

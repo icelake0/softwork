@@ -1,9 +1,9 @@
 <?php
 
-namespace softwork\Http\Controllers\Auth;
+namespace Softwork\Http\Controllers\Auth;
 
-use softwork\User;
-use softwork\Http\Controllers\Controller;
+use Softwork\User;
+use Softwork\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 

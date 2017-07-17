@@ -1,6 +1,6 @@
 <?php
 
-namespace softwork\Exceptions;
+namespace Softwork\Exceptions;
 
 use Exception;
 use Illuminate\Auth\AuthenticationException;

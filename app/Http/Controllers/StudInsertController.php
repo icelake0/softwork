@@ -1,10 +1,10 @@
 <?php
 
-namespace softwork\Http\Controllers;
+namespace Softwork\Http\Controllers;
 use Illuminate\Http\Request;
 use DB;
-use softwork\Http\Requests;
-use softwork\Http\Controllers\Controller;
+use Softwork\Http\Requests;
+use Softwork\Http\Controllers\Controller;
 class StudInsertController extends Controller
 {
 	public function insertform(){
