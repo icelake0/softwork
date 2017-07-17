@@ -10,7 +10,10 @@
 								<div class='col-lg-10' style='padding-bottom:50px'><br>
 									@foreach($blog_posts as $blog_post)
 										<!--begining of a post-->
-										<div class='blogpost'>
+										<div class='blogpost' style='box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+											border-radius:10px 10px 10px 10px;
+											background-color:#f0f5f5;
+											padding:10px 10px 10px 10px;'><!--temp till i get a solution-->
 												Softwork |
 												<span style='color:#3399FF'>
 													{{$blog_post->time_posted->diffForHumans()}}
