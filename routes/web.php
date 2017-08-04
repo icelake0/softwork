@@ -32,4 +32,3 @@ Route::post('/sendMessage','askQuestionController@sendMessage');
 Route::get('/under_dev',function(){
 	return view('under_dev');
 });
-Route::get('/getjson','LSPGPController@index');
