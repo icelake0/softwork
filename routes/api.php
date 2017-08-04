@@ -16,4 +16,10 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
-Route::get('/getjson','LSPGPController@index');
+//Route::get('/getjson','LSPGPController@index');
+Route::get('/getjson', ['middleware' => 'cors', function()
+{
+   		$path = storage_path() . "/sim1result.json"; 
+		$json = json_decode(file_get_contents($path), true);
+        return response()->json(['response' => $json]);
+}]);
