@@ -23,13 +23,6 @@ Route::get('/getjson', ['middleware' => 'cors', function()
 		$json = json_decode(file_get_contents($path), true);
         return response()->json($json);
 }]);
-Route::get('/addjson/{sim1result?}', ['middleware' => 'cors', function(Request $request)
-{
-   		$path = storage_path() . "/sim1result.json"; 
-		File::put($path,$request->sim1result); 
-		//$json = json_decode(file_get_contents($path), true);
-        //return response()->json($json);
-}]);
 Route::get('getsim1Result{matricNumber?}', ['middleware' => 'cors', function(Request $request)
 {		
 	$matricNumber=$request->matricNumber;
