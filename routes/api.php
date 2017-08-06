@@ -23,7 +23,7 @@ Route::get('/getjson', ['middleware' => 'cors', function()
 		$json = json_decode(file_get_contents($path), true);
         return response()->json($json);
 }]);
-Route::get('getsim1Result{matricNumber?}', ['middleware' => 'cors', function(Request $request)
+Route::get('getsim1result{matricNumber?}', ['middleware' => 'cors', function(Request $request)
 {		
 	$matricNumber=$request->matricNumber;
 	$path=$matricNumber;
