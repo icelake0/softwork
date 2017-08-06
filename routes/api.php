@@ -42,8 +42,8 @@ Route::get('getsim1Result{matricNumber?}', ['middleware' => 'cors', function(Req
 		File::put(storage_path()."/App"."/".$path."/sim2result.json",$sim2result);
 		File::put(storage_path()."/App"."/".$path."/sim3result.json",$sim3result);
 		File::put(storage_path()."/App"."/".$path."/sim4result.json",$sim4result);
-		//$json = json_decode(file_get_contents(storage_path()."/App//".$path."/sim1result.json"), true);
-		//return response()->json($json);
+		$json = json_decode(file_get_contents(storage_path()."/App//".$path."/sim1result.json"), true);
+		return response()->json($json);
 	}
 }]);
 Route::get('getsim2Result{matricNumber?}', ['middleware' => 'cors', function(Request $request)
