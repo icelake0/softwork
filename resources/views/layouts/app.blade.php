@@ -36,14 +36,14 @@
 	  _paq.push(['trackPageView']);
 	  _paq.push(['enableLinkTracking']);
 	  (function() {
-		var u="//oxtinwa.000webhostapp.com/piwik/";
+		var u="//oxtinwa.000webhostapp.com/";
 		_paq.push(['setTrackerUrl', u+'piwik.php']);
 		_paq.push(['setSiteId', '1']);
 		var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
 		g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
 	  })();
 	</script>
-<!-- End Piwik Code -->
+	<!-- End Piwik Code -->
 </head>
 <body>
   <div class="preloader">
